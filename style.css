@@ -1,0 +1,50 @@
+.container{
+    margin-bottom: 90px;
+
+}
+.nav-link{
+    font-weight: 600;
+}
+
+
+nav{
+    background-color: transparent;
+}
+
+.sign-in{
+    width: 100px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #21B573;
+    cursor: pointer;
+}
+
+.buy-now-button {
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 25px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.home-page h6 {
+    color: rgb(255, 115, 0);
+}
+
+.home-page h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.home-page p{
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+span{
+    color: #21B573;
+}
