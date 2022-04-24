@@ -2,6 +2,7 @@
     margin-bottom: 90px;
 
 }
+
 .nav-link{
     font-weight: 500;
     font-family: poppins;
@@ -88,8 +89,8 @@ span{
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
-    
     font-family: poppins;
+    border: none;
 }
 
 .course-image{
@@ -136,4 +137,29 @@ span{
 .people-icon{
     margin-top: -64px;
     margin-left: 230px;
+}
+
+.testimonial{
+    font-family: poppins;
+    font-size: 36px;
+    color: black;
+}
+
+.man{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 353px;
+    top: 1740px;
+}
+
+.test-report{
+    position: absolute;
+    width: 580px;
+    height: 90px;
+    left: 525px;
+    top: 1750px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
 }
