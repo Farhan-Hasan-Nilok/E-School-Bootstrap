@@ -3,7 +3,8 @@
 
 }
 .nav-link{
-    font-weight: 600;
+    font-weight: 500;
+    font-family: poppins;
 }
 
 
@@ -18,6 +19,8 @@ nav{
     text-align: center;
     background-color: #21B573;
     cursor: pointer;
+    font-family: poppins;
+    font-weight: 500;
 }
 
 .buy-now-button {
@@ -27,24 +30,110 @@ nav{
     border-radius: 20px;
     padding: 9px 25px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .home-page h6 {
     color: rgb(255, 115, 0);
+    font-family: poppins;
 }
 
 .home-page h1{
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 25px;
+    font-family: poppins;
 }
 .home-page p{
     color: grey;
     font-size: 17px;
     margin-bottom: 25px;
     font-weight: 500;
+    font-family: poppins;
 }
 span{
     color: #21B573;
+    font-family: poppins;
+}
+
+.book{
+    width: 270px;
+    height: 270px;
+    top: 10px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.book1{
+    width: 270px;
+    height: 270px;
+    top: 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.online-course{
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 70px;
+}
+
+.course{
+    width: 370px;
+    height: 483px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    
+    font-family: poppins;
+}
+
+.course-image{
+    width: 331px;
+    height: 234px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+.card-body h6{
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.buy-course-button{
+    width: 137px;
+    height: 35px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+    font-weight: 300;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+.card-icon{
+    width: 20px;
+    margin-top: 40px;
+}
+
+.card-body p{
+    margin-left: 30px;
+    margin-top: -22px;
+    font-size: 16px;
+    font-family: poppins;
+    color: #585859;
+}
+
+.people-icon{
+    margin-top: -64px;
+    margin-left: 230px;
 }
