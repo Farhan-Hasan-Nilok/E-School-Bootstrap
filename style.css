@@ -1,19 +1,25 @@
-.container{
+.container {
     margin-bottom: 90px;
 
 }
 
-.nav-link{
+.nav-link {
     font-weight: 500;
     font-family: poppins;
 }
 
+.background-cl {
+    background: #F0FFF0;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 2%;
+}
 
-nav{
+nav {
     background-color: transparent;
 }
 
-.sign-in{
+.sign-in {
     width: 100px;
     color: white;
     border-radius: 20px;
@@ -39,25 +45,27 @@ nav{
     font-family: poppins;
 }
 
-.home-page h1{
+.home-page h1 {
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 25px;
     font-family: poppins;
 }
-.home-page p{
+
+.home-page p {
     color: grey;
     font-size: 17px;
     margin-bottom: 25px;
     font-weight: 500;
     font-family: poppins;
 }
-span{
+
+span {
     color: #21B573;
     font-family: poppins;
 }
 
-.book{
+.book {
     width: 270px;
     height: 270px;
     top: 10px;
@@ -67,7 +75,7 @@ span{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.book1{
+.book1 {
     width: 270px;
     height: 270px;
     top: 10px;
@@ -77,13 +85,13 @@ span{
     border: none;
 }
 
-.online-course{
+.online-course {
     font-weight: 700;
     color: #413960;
     margin-bottom: 70px;
 }
 
-.course{
+.course {
     width: 370px;
     height: 483px;
     background: #FFFFFF;
@@ -93,21 +101,21 @@ span{
     border: none;
 }
 
-.course-image{
+.course-image {
     width: 331px;
     height: 234px;
     margin-top: 17px;
     margin-left: 18px;
 }
 
-.card-body h6{
+.card-body h6 {
     color: #585859;
     font-weight: 400;
     font-size: 16px;
     font-family: poppins;
 }
 
-.buy-course-button{
+.buy-course-button {
     width: 137px;
     height: 35px;
     background: #21B573;
@@ -121,12 +129,12 @@ span{
     font-family: poppins;
 }
 
-.card-icon{
+.card-icon {
     width: 20px;
     margin-top: 40px;
 }
 
-.card-body p{
+.card-body p {
     margin-left: 30px;
     margin-top: -22px;
     font-size: 16px;
@@ -134,32 +142,43 @@ span{
     color: #585859;
 }
 
-.people-icon{
+.people-icon {
     margin-top: -64px;
     margin-left: 230px;
 }
 
-.testimonial{
+.testimonial {
     font-family: poppins;
     font-size: 36px;
     color: black;
 }
 
-.man{
+.man {
     position: absolute;
     width: 120px;
     height: 120px;
     left: 353px;
-    top: 1740px;
+    top: 1720px;
+
 }
 
-.test-report{
+.test-report {
     position: absolute;
     width: 580px;
     height: 90px;
     left: 525px;
-    top: 1750px;
+    top: 1730px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+}
+
+.last-page {
+    width: 100%;
+    height: 360px;
+    background-color: #282531;
+    position: relative;
+    margin-top: 25%;
+    padding-top: 100px;
+
 }
