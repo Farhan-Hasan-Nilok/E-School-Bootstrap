@@ -4,19 +4,26 @@
 }
 
 .nav-link {
-    font-weight: 500;
+    font-weight: 300;
     font-family: poppins;
 }
 
 .background-cl {
     background: #F0FFF0;
     width: 100%;
-    height: 500px;
+    height: 100%;
     margin-bottom: 2%;
 }
 
 nav {
     background-color: transparent;
+}
+
+.home-page h1{
+   font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
 }
 
 .sign-in {
@@ -27,22 +34,27 @@ nav {
     background-color: #21B573;
     cursor: pointer;
     font-family: poppins;
-    font-weight: 500;
+    font-weight: 300;
 }
 
-.buy-now-button {
+.started-button {
     background-color: #21B573;
     color: white;
     border: none;
     border-radius: 20px;
     padding: 9px 25px;
     cursor: pointer;
-    font-weight: 400;
+    margin-top: 5px;
+   
+   
 }
 
-.home-page h6 {
-    color: rgb(255, 115, 0);
-    font-family: poppins;
+.home-page h5 {
+    color: #FD511A;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 .home-page h1 {
@@ -53,10 +65,10 @@ nav {
 }
 
 .home-page p {
-    color: grey;
+    color: #6C6B6B;
     font-size: 17px;
     margin-bottom: 25px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: poppins;
 }
 
@@ -73,6 +85,7 @@ span {
     border-radius: 10px;
     border: none;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
 }
 
 .book1 {
@@ -83,12 +96,14 @@ span {
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     border: none;
+    margin-top: 50px;
 }
 
 .online-course {
     font-weight: 700;
     color: #413960;
     margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 .course {
@@ -104,13 +119,13 @@ span {
 .course-image {
     width: 331px;
     height: 234px;
-    margin-top: 17px;
+    margin-top: 20px;
     margin-left: 18px;
 }
 
 .card-body h6 {
     color: #585859;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     font-family: poppins;
 }
@@ -140,6 +155,7 @@ span {
     font-size: 16px;
     font-family: poppins;
     color: #585859;
+    font-weight: 300;
 }
 
 .people-icon {
@@ -153,32 +169,56 @@ span {
     color: black;
 }
 
+
 .man {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 353px;
-    top: 1720px;
+  width: 40%;
+  margin: auto;
 
 }
+.man img{
+    width: 100px;
+}
 
-.test-report {
-    position: absolute;
-    width: 580px;
-    height: 90px;
-    left: 525px;
-    top: 1730px;
-    font-weight: 400;
+.testimonial, p{
+    font-family: poppins;
     font-size: 16px;
-    line-height: 30px;
+    font-weight: 400;
+}
+
+.testimonial h3{
+    font-weight: 700;
+    font-family: poppins;
+    color: #413960;
 }
 
 .last-page {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-color: #282531;
     position: relative;
-    margin-top: 25%;
+    margin-top: 20%;
     padding-top: 100px;
 
+}
+
+.description{
+    list-style: none; 
+    font-family: poppins; 
+    font-size: 14px; 
+    font-weight: 300;
+}
+
+.last-page h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.courses{
+    list-style: none;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#others{
+    display: inline-block;
 }

@@ -1,0 +1,10 @@
+@media (min-width:0px) and (max-width:600px) {
+   .nav-item{
+     margin: auto;
+   }
+
+   .home-page h5, h1, p, span{
+       text-align: center;
+       margin: auto;
+   }
+}
