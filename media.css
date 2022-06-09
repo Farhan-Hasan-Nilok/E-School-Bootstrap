@@ -7,4 +7,46 @@
        text-align: center;
        margin: auto;
    }
+
+   .started-button{
+       display: grid;
+       margin: auto;
+       margin-bottom: 15px;
+   }
+
+   .book1{
+       margin: auto;
+       margin-bottom: 15px;
+   }
+   .book {
+       margin: auto;
+       margin-bottom: 15px;
+   }
+
+   .course{
+       margin: auto;
+   }
+   .course-icon{
+       float: left;
+       margin-top: 5px;
+   }
+
+   .people-icon{
+       float: right;
+       margin-top: -64px;
+   }
+
+   .card-body, h3, h6{
+    text-align: center;
+   }
+
+   .course-icon img{
+       display: grid;
+       
+   }
+   .man{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   }
 }
