@@ -47,12 +47,12 @@
    .man{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
    }
 
-   .description{
+   .last{
        display: block;
        text-align: center;
-       margin: auto; 
+       
       }
 }
